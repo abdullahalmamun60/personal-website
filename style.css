@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.name{
+    color: crimson;
+}
+.half-width{
+    margin-top: 150px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    margin-top: 150px;
+    width:100%;
+    margin-top: 4%;
+}
+.hire{
+    margin-top: 20px;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, crimson,salmon);
+    display: inline-block;
+}
+.page-one{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 750px;
+}
+/* section{
+    height: 800px;
+} */
+.page-two{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.page-three{
+    margin-left: 100px;
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+   background-size: contain;
+   height: 500px;
+
+}
+.one-third img{
+    float: left;
+    width: 29%;
+    padding-right: 40px;
+}
+.footer
+{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+}
+.middle{
+    text-align: center;
+}
+.shadow{
+    text-align: center;
+    color: #4e4e4c;
+}
+.foot{
+    text-align: center;
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 40px;
+}
+
+.box{
+    margin-top: 80px;
+    box-shadow: 10px 10px 10px gray;
+    height: 100px;
+    width:500px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: crimson;
+    background-image: linear-gradient(45deg,crimson,salmon);
+    margin-left: 33%;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+
+}
+.ft{
+font-size: 5px;
+color: #4e4e4c;
+}
